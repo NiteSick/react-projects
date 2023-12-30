@@ -1,16 +1,13 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
+import ShoppingList from "./components/shopping-list/Index";
+import GlobalStyles from "./GlobalStyled";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <div className="oval"></div>
+      <GlobalStyles />
+      <ShoppingList />
     </>
   );
 }
-
 export default App;
